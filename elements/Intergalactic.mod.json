@@ -1,0 +1,22 @@
+{
+  "_fv": 17,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "sabotagedisc",
+    "name": "Intergalactic",
+    "description": "Intergalactic - Beastie Boys",
+    "creativeTab": {
+      "value": "CUSTOM:SammyNightsTab"
+    },
+    "music": {
+      "value": "CUSTOM:intergalactic"
+    },
+    "specialInfo": [
+      "Intergalactic - Beastie Boys"
+    ],
+    "hasGlow": true,
+    "onRightClickedOnBlock": {
+      "name": "SabotageRightClickedOnBlock"
+    }
+  }
+}

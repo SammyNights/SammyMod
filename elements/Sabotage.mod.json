@@ -1,0 +1,22 @@
+{
+  "_fv": 17,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "sabotagedisc",
+    "name": "Sabotage",
+    "description": "Sabotage - Beastie Boys",
+    "creativeTab": {
+      "value": "CUSTOM:SammyNightsTab"
+    },
+    "music": {
+      "value": "CUSTOM:sabotage"
+    },
+    "specialInfo": [
+      "Sabotage - Beastie Boys"
+    ],
+    "hasGlow": true,
+    "onRightClickedOnBlock": {
+      "name": "SabotageRightClickedOnBlock"
+    }
+  }
+}

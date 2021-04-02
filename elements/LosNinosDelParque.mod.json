@@ -1,0 +1,19 @@
+{
+  "_fv": 17,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "sabotagedisc",
+    "name": "Los Ninos Del Parque",
+    "description": "Los Ninos Del Parque - KMFDM",
+    "creativeTab": {
+      "value": "CUSTOM:SammyNightsTab"
+    },
+    "music": {
+      "value": "CUSTOM:losninosdelparque"
+    },
+    "specialInfo": [
+      "Los Ninos Del Parque - KMFDM"
+    ],
+    "hasGlow": true
+  }
+}

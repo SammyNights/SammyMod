@@ -1,0 +1,22 @@
+{
+  "_fv": 17,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "sabotagedisc",
+    "name": "Stylo",
+    "description": "Stylo - Gorillaz",
+    "creativeTab": {
+      "value": "CUSTOM:SammyNightsTab"
+    },
+    "music": {
+      "value": "CUSTOM:stylo"
+    },
+    "specialInfo": [
+      "Stylo - Gorillaz"
+    ],
+    "hasGlow": true,
+    "onRightClickedOnBlock": {
+      "name": "SabotageRightClickedOnBlock"
+    }
+  }
+}

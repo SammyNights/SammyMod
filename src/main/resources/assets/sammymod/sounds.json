@@ -1,0 +1,72 @@
+{
+  "sabotage": {
+    "category": "master",
+    "subtitle": "subtitles.sabotage",
+    "sounds": [
+      {
+        "name": "sammymod:beastie_boys_-_sabotage",
+        "stream": false
+      }
+    ]
+  },
+  "intergalactic": {
+    "category": "record",
+    "subtitle": "subtitles.intergalactic",
+    "sounds": [
+      {
+        "name": "sammymod:beastie_boys_-_intergalactic",
+        "stream": true
+      }
+    ]
+  },
+  "gorrilaz192000": {
+    "category": "record",
+    "subtitle": "subtitles.gorrilaz192000",
+    "sounds": [
+      {
+        "name": "sammymod:01_-_19-2000_soulchild_remix",
+        "stream": true
+      }
+    ]
+  },
+  "losninosdelparque": {
+    "category": "record",
+    "subtitle": "subtitles.losninosdelparque",
+    "sounds": [
+      {
+        "name": "sammymod:07_los_ninos_del_parque",
+        "stream": true
+      }
+    ]
+  },
+  "stylo": {
+    "category": "record",
+    "subtitle": "subtitles.stylo",
+    "sounds": [
+      {
+        "name": "sammymod:05_-_stylo",
+        "stream": true
+      }
+    ]
+  },
+  "magicaltrevor": {
+    "category": "record",
+    "subtitle": "subtitles.magicaltrevor",
+    "sounds": [
+      {
+        "name": "sammymod:magical_trevor___episode_01___animated_music_video___mrweebl",
+        "stream": true
+      }
+    ]
+  },
+  "girlsandboys": {
+    "category": "record",
+    "subtitle": "subtitles.girlsandboys",
+    "sounds": [
+      {
+        "name": "sammymod:1-01_girls_and_boys_2012_remastere",
+        "stream": true
+      }
+    ]
+  }
+}

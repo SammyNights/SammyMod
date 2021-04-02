@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sammymod:blocks/sammportalblock",
+    "up": "sammymod:blocks/sammportalblock",
+    "north": "sammymod:blocks/sammportalblock",
+    "east": "sammymod:blocks/sammportalblock",
+    "south": "sammymod:blocks/sammportalblock",
+    "west": "sammymod:blocks/sammportalblock",
+    "particle": "sammymod:blocks/sammportalblock"
+  }
+}

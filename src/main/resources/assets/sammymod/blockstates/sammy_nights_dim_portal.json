@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "sammymod:block/sammy_nights_dim_portal_ew"
+    },
+    "axis=x": {
+      "model": "sammymod:block/sammy_nights_dim_portal_ns"
+    }
+  }
+}

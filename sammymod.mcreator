@@ -1,0 +1,257 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Sabotage",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sabotage"
+    },
+    {
+      "name": "SabotageRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sabotage_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Intergalactic",
+      "type": "musicdisc",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "intergalactic"
+    },
+    {
+      "name": "SammyNightsTab",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sammy_nights_tab"
+    },
+    {
+      "name": "Gorillaz192000",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gorillaz_192000"
+    },
+    {
+      "name": "SammyNightsDim",
+      "type": "dimension",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sammy_nights_dim",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "SammyPortal",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sammy_portal"
+    },
+    {
+      "name": "LosNinosDelParque",
+      "type": "musicdisc",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "los_ninos_del_parque"
+    },
+    {
+      "name": "Stylo",
+      "type": "musicdisc",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stylo"
+    },
+    {
+      "name": "MagicalTrevor",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magical_trevor"
+    },
+    {
+      "name": "GirlsAndBoys",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "girls_and_boys"
+    },
+    {
+      "name": "SammyNights",
+      "type": "mob",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sammy_nights"
+    },
+    {
+      "name": "SammyNightsLoot",
+      "type": "loottable",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sammy_nights_loot"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "sabotage",
+      "files": [
+        "beastie_boys_-_sabotage"
+      ],
+      "category": "master",
+      "subtitle": "Sabotage - Beastie Boys"
+    },
+    {
+      "name": "intergalactic",
+      "files": [
+        "beastie_boys_-_intergalactic"
+      ],
+      "category": "record",
+      "subtitle": "Intergalactic - Beastie Boys"
+    },
+    {
+      "name": "gorrilaz192000",
+      "files": [
+        "01_-_19-2000_soulchild_remix"
+      ],
+      "category": "record",
+      "subtitle": "19-2000 - Gorillaz"
+    },
+    {
+      "name": "losninosdelparque",
+      "files": [
+        "07_los_ninos_del_parque"
+      ],
+      "category": "record",
+      "subtitle": "Los Ninos Del Parque"
+    },
+    {
+      "name": "stylo",
+      "files": [
+        "05_-_stylo"
+      ],
+      "category": "record",
+      "subtitle": "Stylo - Gorillaz"
+    },
+    {
+      "name": "magicaltrevor",
+      "files": [
+        "magical_trevor___episode_01___animated_music_video___mrweebl"
+      ],
+      "category": "record",
+      "subtitle": "Magical Trevor - Weebls"
+    },
+    {
+      "name": "girlsandboys",
+      "files": [
+        "1-01_girls_and_boys_2012_remastere"
+      ],
+      "category": "record",
+      "subtitle": "Girls and Boys"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.sammymod.los_ninos_del_parque.desc": "Los Ninos Del Parque - KMFDM",
+      "item.sammymod.girls_and_boys.desc": "Girls and Boys - Blur",
+      "item.sammymod.sammy_nights_spawn_egg": "Sammy Nights Spawn Egg",
+      "subtitles.gorrilaz192000": "19-2000 - Gorillaz",
+      "item.sammymod.intergalactic.desc": "Intergalactic - Beastie Boys",
+      "item.sammymod.magical_trevor.desc": "Magical Trevor - Weebls",
+      "subtitles.losninosdelparque": "Los Ninos Del Parque",
+      "item.sammymod.stylo": "Stylo",
+      "subtitles.intergalactic": "Intergalactic - Beastie Boys",
+      "item.sammymod.sabotage": "Sabotage",
+      "itemGroup.tabsammy_nights_tab": "SammyNights Dev Corp.",
+      "item.sammymod.sammy_nights_dim": "SammyNights Interdimensional Wand",
+      "item.sammymod.intergalactic": "Intergalactic",
+      "subtitles.girlsandboys": "Girls and Boys",
+      "subtitles.magicaltrevor": "Magical Trevor - Weebls",
+      "item.sammymod.gorillaz_192000": "Gorillaz 1 9 2 0 0 0",
+      "item.sammymod.girls_and_boys": "Girls and Boys",
+      "item.sammymod.los_ninos_del_parque": "Los Ninos Del Parque",
+      "block.sammymod.sammy_portal": "Sammy Portal",
+      "entity.sammymod.sammy_nights": "Sammy Nights",
+      "item.sammymod.magical_trevor": "Magical Trevor",
+      "subtitles.sabotage": "Sabotage - Beastie Boys",
+      "item.sammymod.stylo.desc": "Stylo - Gorillaz",
+      "item.sammymod.sabotage.desc": "Sabotage - Beastie Boys",
+      "item.sammymod.gorillaz_192000.desc": "19 - 2000 - Gorillaz",
+      "subtitles.stylo": "Stylo - Gorillaz"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sammymod",
+    "modName": "SammyMod",
+    "version": "1.0.0",
+    "author": "Tony Stark, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.sammymod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100112313
+}

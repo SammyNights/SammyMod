@@ -1,0 +1,22 @@
+{
+  "_fv": 17,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "sabotagedisc",
+    "name": "Gorillaz 1 9 2 0 0 0",
+    "description": "19 - 2000 - Gorillaz",
+    "creativeTab": {
+      "value": "CUSTOM:SammyNightsTab"
+    },
+    "music": {
+      "value": "CUSTOM:gorrilaz192000"
+    },
+    "specialInfo": [
+      "19 - 2000 - Gorillaz"
+    ],
+    "hasGlow": true,
+    "onRightClickedOnBlock": {
+      "name": "SabotageRightClickedOnBlock"
+    }
+  }
+}
