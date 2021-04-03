@@ -104,15 +104,6 @@
       "registry_name": "sammy_nights_loot"
     },
     {
-      "name": "SammyNights",
-      "type": "mob",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sammy_nights"
-    },
-    {
       "name": "FightForYourRight",
       "type": "musicdisc",
       "sortid": 2,
@@ -156,6 +147,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "adv_brass_monkey"
+    },
+    {
+      "name": "SammyNights",
+      "type": "mob",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sammy_nights"
     }
   ],
   "variable_elements": [],
@@ -253,8 +253,8 @@
     "en_us": {
       "subtitles.brassmonkey": "Brass Monkey",
       "item.sammymod.los_ninos_del_parque.desc": "Los Ninos Del Parque - KMFDM",
-      "subtitles.fightforyourright": "Fight For Your Right To Party",
       "item.sammymod.girls_and_boys.desc": "Girls and Boys - Blur",
+      "subtitles.fightforyourright": "Fight For Your Right To Party",
       "item.sammymod.sammy_nights_spawn_egg": "Sammy Nights Spawn Egg",
       "item.sammymod.fight_for_your_right": "Fight For Your Right",
       "subtitles.gorrilaz192000": "19-2000 - Gorillaz",
