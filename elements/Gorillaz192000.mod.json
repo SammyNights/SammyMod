@@ -14,9 +14,6 @@
     "specialInfo": [
       "19 - 2000 - Gorillaz"
     ],
-    "hasGlow": true,
-    "onRightClickedOnBlock": {
-      "name": "SabotageRightClickedOnBlock"
-    }
+    "hasGlow": true
   }
 }

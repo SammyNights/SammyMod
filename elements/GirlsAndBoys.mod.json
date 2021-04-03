@@ -14,9 +14,6 @@
     "specialInfo": [
       "Girls and Boys - Blur"
     ],
-    "hasGlow": true,
-    "onRightClickedOnBlock": {
-      "name": "SabotageRightClickedOnBlock"
-    }
+    "hasGlow": true
   }
 }

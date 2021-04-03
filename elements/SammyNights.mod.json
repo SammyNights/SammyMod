@@ -5,7 +5,7 @@
     "mobName": "Sammy Nights",
     "mobLabel": "Sammy Nights",
     "mobModelName": "Biped",
-    "mobModelTexture": "sammynights.png",
+    "mobModelTexture": "2020_06_10_rick-sanchez-pike-14569621.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
@@ -110,12 +110,12 @@
     },
     "rangedItemType": "Default item",
     "spawnThisMob": true,
-    "doesDespawnWhenIdle": false,
+    "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [],
-    "spawnInDungeons": false
+    "spawnInDungeons": true
   }
 }

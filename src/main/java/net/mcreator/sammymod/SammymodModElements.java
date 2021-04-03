@@ -57,6 +57,13 @@ public class SammymodModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("sammymod", "magicaltrevor")));
 		sounds.put(new ResourceLocation("sammymod", "girlsandboys"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("sammymod", "girlsandboys")));
+		sounds.put(new ResourceLocation("sammymod", "fightforyourright"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("sammymod", "fightforyourright")));
+		sounds.put(new ResourceLocation("sammymod", "girls"), new net.minecraft.util.SoundEvent(new ResourceLocation("sammymod", "girls")));
+		sounds.put(new ResourceLocation("sammymod", "shortchangehero"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("sammymod", "shortchangehero")));
+		sounds.put(new ResourceLocation("sammymod", "brassmonkey"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("sammymod", "brassmonkey")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("sammymod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

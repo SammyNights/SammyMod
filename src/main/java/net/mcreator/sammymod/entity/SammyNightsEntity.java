@@ -11,6 +11,7 @@ import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.DungeonHooks;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -60,7 +61,7 @@ import java.util.Random;
 public class SammyNightsEntity extends SammymodModElements.ModElement {
 	public static EntityType entity = null;
 	public SammyNightsEntity(SammymodModElements instance) {
-		super(instance, 12);
+		super(instance, 14);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ModelRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
 	}
@@ -86,6 +87,7 @@ public class SammyNightsEntity extends SammymodModElements.ModElement {
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos,
 						random) -> (world.getBlockState(pos.down()).getMaterial() == Material.ORGANIC && world.getLightSubtracted(pos, 0) > 8));
+		DungeonHooks.addDungeonMob(entity, 180);
 	}
 	private static class ModelRegisterHandler {
 		@SubscribeEvent
@@ -95,7 +97,7 @@ public class SammyNightsEntity extends SammymodModElements.ModElement {
 				BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("sammymod:textures/sammynights.png");
+						return new ResourceLocation("sammymod:textures/2020_06_10_rick-sanchez-pike-14569621.png");
 					}
 				};
 				customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));
@@ -122,7 +124,6 @@ public class SammyNightsEntity extends SammymodModElements.ModElement {
 			setNoAI(false);
 			setCustomName(new StringTextComponent("Sammy Nights"));
 			setCustomNameVisible(true);
-			enablePersistence();
 		}
 
 		@Override
@@ -148,11 +149,6 @@ public class SammyNightsEntity extends SammymodModElements.ModElement {
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.ILLAGER;
-		}
-
-		@Override
-		public boolean canDespawn(double distanceToClosestPlayer) {
-			return false;
 		}
 
 		@Override

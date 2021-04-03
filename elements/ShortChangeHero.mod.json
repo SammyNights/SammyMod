@@ -1,0 +1,19 @@
+{
+  "_fv": 17,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "sabotagedisc",
+    "name": "Short Change Hero",
+    "description": "Short Change Hero - The Heavy",
+    "creativeTab": {
+      "value": "CUSTOM:SammyNightsTab"
+    },
+    "music": {
+      "value": "CUSTOM:shortchangehero"
+    },
+    "specialInfo": [
+      "Short Change Hero - The Heavy"
+    ],
+    "hasGlow": true
+  }
+}

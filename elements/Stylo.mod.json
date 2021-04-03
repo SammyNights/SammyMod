@@ -14,9 +14,6 @@
     "specialInfo": [
       "Stylo - Gorillaz"
     ],
-    "hasGlow": true,
-    "onRightClickedOnBlock": {
-      "name": "SabotageRightClickedOnBlock"
-    }
+    "hasGlow": true
   }
 }

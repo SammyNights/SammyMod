@@ -11,38 +11,9 @@
       "registry_name": "sabotage"
     },
     {
-      "name": "SabotageRightClickedOnBlock",
-      "type": "procedure",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sabotage_right_clicked_on_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Intergalactic",
       "type": "musicdisc",
-      "sortid": 2,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -51,7 +22,7 @@
     {
       "name": "SammyNightsTab",
       "type": "tab",
-      "sortid": 11,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -60,7 +31,7 @@
     {
       "name": "Gorillaz192000",
       "type": "musicdisc",
-      "sortid": 3,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -69,7 +40,7 @@
     {
       "name": "SammyNightsDim",
       "type": "dimension",
-      "sortid": 9,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -81,7 +52,7 @@
     {
       "name": "SammyPortal",
       "type": "block",
-      "sortid": 8,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -90,7 +61,7 @@
     {
       "name": "LosNinosDelParque",
       "type": "musicdisc",
-      "sortid": 4,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -99,7 +70,7 @@
     {
       "name": "Stylo",
       "type": "musicdisc",
-      "sortid": 5,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -108,7 +79,7 @@
     {
       "name": "MagicalTrevor",
       "type": "musicdisc",
-      "sortid": 6,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -117,29 +88,74 @@
     {
       "name": "GirlsAndBoys",
       "type": "musicdisc",
-      "sortid": 7,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "girls_and_boys"
     },
     {
+      "name": "SammyNightsLoot",
+      "type": "loottable",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sammy_nights_loot"
+    },
+    {
       "name": "SammyNights",
       "type": "mob",
-      "sortid": 12,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "sammy_nights"
     },
     {
-      "name": "SammyNightsLoot",
-      "type": "loottable",
-      "sortid": 14,
+      "name": "FightForYourRight",
+      "type": "musicdisc",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sammy_nights_loot"
+      "registry_name": "fight_for_your_right"
+    },
+    {
+      "name": "Girls",
+      "type": "musicdisc",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "girls"
+    },
+    {
+      "name": "ShortChangeHero",
+      "type": "musicdisc",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "short_change_hero"
+    },
+    {
+      "name": "BrassMonkey",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brass_monkey"
+    },
+    {
+      "name": "ADVBrassMonkey",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adv_brass_monkey"
     }
   ],
   "variable_elements": [],
@@ -199,13 +215,48 @@
       ],
       "category": "record",
       "subtitle": "Girls and Boys"
+    },
+    {
+      "name": "fightforyourright",
+      "files": [
+        "beastie_boys_-_fight_for_your_right_to_party2"
+      ],
+      "category": "record",
+      "subtitle": "Fight For Your Right To Party"
+    },
+    {
+      "name": "girls",
+      "files": [
+        "beasty_boys_-_girls_1"
+      ],
+      "category": "record",
+      "subtitle": "Girls"
+    },
+    {
+      "name": "shortchangehero",
+      "files": [
+        "short_change_hero"
+      ],
+      "category": "record",
+      "subtitle": "Short Change Hero"
+    },
+    {
+      "name": "brassmonkey",
+      "files": [
+        "beastie_boys_-_brass_monkey2"
+      ],
+      "category": "record",
+      "subtitle": "Brass Monkey"
     }
   ],
   "language_map": {
     "en_us": {
+      "subtitles.brassmonkey": "Brass Monkey",
       "item.sammymod.los_ninos_del_parque.desc": "Los Ninos Del Parque - KMFDM",
       "item.sammymod.girls_and_boys.desc": "Girls and Boys - Blur",
+      "subtitles.fightforyourright": "Fight For Your Right To Party",
       "item.sammymod.sammy_nights_spawn_egg": "Sammy Nights Spawn Egg",
+      "item.sammymod.fight_for_your_right": "Fight For Your Right",
       "subtitles.gorrilaz192000": "19-2000 - Gorillaz",
       "item.sammymod.intergalactic.desc": "Intergalactic - Beastie Boys",
       "item.sammymod.magical_trevor.desc": "Magical Trevor - Weebls",
@@ -213,11 +264,19 @@
       "item.sammymod.stylo": "Stylo",
       "subtitles.intergalactic": "Intergalactic - Beastie Boys",
       "item.sammymod.sabotage": "Sabotage",
+      "item.sammymod.girls.desc": "Girls - Beastie Boys",
       "itemGroup.tabsammy_nights_tab": "SammyNights Dev Corp.",
       "item.sammymod.sammy_nights_dim": "SammyNights Interdimensional Wand",
       "item.sammymod.intergalactic": "Intergalactic",
+      "item.sammymod.girls": "Girls",
+      "item.sammymod.short_change_hero": "Short Change Hero",
       "subtitles.girlsandboys": "Girls and Boys",
       "subtitles.magicaltrevor": "Magical Trevor - Weebls",
+      "subtitles.shortchangehero": "Short Change Hero",
+      "item.sammymod.fight_for_your_right.desc": "Fight For Your Right To Party - Beastie Boys",
+      "subtitles.girls": "Girls",
+      "advancements.adv_brass_monkey.title": "Brass Monkey",
+      "advancements.adv_brass_monkey.descr": "Fight For Your Right To PAARTYY!",
       "item.sammymod.gorillaz_192000": "Gorillaz 1 9 2 0 0 0",
       "item.sammymod.girls_and_boys": "Girls and Boys",
       "item.sammymod.los_ninos_del_parque": "Los Ninos Del Parque",
@@ -226,9 +285,12 @@
       "item.sammymod.magical_trevor": "Magical Trevor",
       "subtitles.sabotage": "Sabotage - Beastie Boys",
       "item.sammymod.stylo.desc": "Stylo - Gorillaz",
+      "item.sammymod.brass_monkey.desc": "Brass Monkey - Beastie Boys",
       "item.sammymod.sabotage.desc": "Sabotage - Beastie Boys",
+      "item.sammymod.short_change_hero.desc": "Short Change Hero - The Heavy",
       "item.sammymod.gorillaz_192000.desc": "19 - 2000 - Gorillaz",
-      "subtitles.stylo": "Stylo - Gorillaz"
+      "subtitles.stylo": "Stylo - Gorillaz",
+      "item.sammymod.brass_monkey": "Brass Monkey"
     }
   },
   "foldersRoot": {

@@ -14,9 +14,6 @@
     "specialInfo": [
       "Magical Trevor - Weebls"
     ],
-    "hasGlow": true,
-    "onRightClickedOnBlock": {
-      "name": "SabotageRightClickedOnBlock"
-    }
+    "hasGlow": true
   }
 }

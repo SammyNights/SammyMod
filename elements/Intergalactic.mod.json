@@ -14,9 +14,6 @@
     "specialInfo": [
       "Intergalactic - Beastie Boys"
     ],
-    "hasGlow": true,
-    "onRightClickedOnBlock": {
-      "name": "SabotageRightClickedOnBlock"
-    }
+    "hasGlow": true
   }
 }

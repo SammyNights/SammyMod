@@ -13,7 +13,7 @@ import net.mcreator.sammymod.SammymodModElements;
 @SammymodModElements.ModElement.Tag
 public class SammyNightsTabItemGroup extends SammymodModElements.ModElement {
 	public SammyNightsTabItemGroup(SammymodModElements instance) {
-		super(instance, 11);
+		super(instance, 15);
 	}
 
 	@Override

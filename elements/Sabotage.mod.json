@@ -14,9 +14,6 @@
     "specialInfo": [
       "Sabotage - Beastie Boys"
     ],
-    "hasGlow": true,
-    "onRightClickedOnBlock": {
-      "name": "SabotageRightClickedOnBlock"
-    }
+    "hasGlow": true
   }
 }

@@ -68,5 +68,45 @@
         "stream": true
       }
     ]
+  },
+  "fightforyourright": {
+    "category": "record",
+    "subtitle": "subtitles.fightforyourright",
+    "sounds": [
+      {
+        "name": "sammymod:beastie_boys_-_fight_for_your_right_to_party2",
+        "stream": true
+      }
+    ]
+  },
+  "girls": {
+    "category": "record",
+    "subtitle": "subtitles.girls",
+    "sounds": [
+      {
+        "name": "sammymod:beasty_boys_-_girls_1",
+        "stream": true
+      }
+    ]
+  },
+  "shortchangehero": {
+    "category": "record",
+    "subtitle": "subtitles.shortchangehero",
+    "sounds": [
+      {
+        "name": "sammymod:short_change_hero",
+        "stream": true
+      }
+    ]
+  },
+  "brassmonkey": {
+    "category": "record",
+    "subtitle": "subtitles.brassmonkey",
+    "sounds": [
+      {
+        "name": "sammymod:beastie_boys_-_brass_monkey2",
+        "stream": true
+      }
+    ]
   }
 }

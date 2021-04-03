@@ -25,7 +25,7 @@ public class LosNinosDelParqueItem extends SammymodModElements.ModElement {
 	@ObjectHolder("sammymod:los_ninos_del_parque")
 	public static final Item block = null;
 	public LosNinosDelParqueItem(SammymodModElements instance) {
-		super(instance, 4);
+		super(instance, 8);
 	}
 
 	@Override

@@ -1,0 +1,19 @@
+{
+  "_fv": 17,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "sabotagedisc",
+    "name": "Girls",
+    "description": "Girls - Beastie Boys",
+    "creativeTab": {
+      "value": "CUSTOM:SammyNightsTab"
+    },
+    "music": {
+      "value": "CUSTOM:girls"
+    },
+    "specialInfo": [
+      "Girls - Beastie Boys"
+    ],
+    "hasGlow": true
+  }
+}

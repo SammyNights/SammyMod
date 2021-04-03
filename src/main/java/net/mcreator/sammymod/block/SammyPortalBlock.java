@@ -51,7 +51,7 @@ public class SammyPortalBlock extends SammymodModElements.ModElement {
 	@ObjectHolder("sammymod:sammy_portal")
 	public static final Block block = null;
 	public SammyPortalBlock(SammymodModElements instance) {
-		super(instance, 8);
+		super(instance, 12);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -1,0 +1,19 @@
+{
+  "_fv": 17,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "sabotagedisc",
+    "name": "Brass Monkey",
+    "description": "Brass Monkey - Beastie Boys",
+    "creativeTab": {
+      "value": "CUSTOM:SammyNightsTab"
+    },
+    "music": {
+      "value": "CUSTOM:brassmonkey"
+    },
+    "specialInfo": [
+      "Brass Monkey - Beastie Boys"
+    ],
+    "hasGlow": true
+  }
+}

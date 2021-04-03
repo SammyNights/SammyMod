@@ -76,7 +76,7 @@ public class SammyNightsDimDimension extends SammymodModElements.ModElement {
 	@ObjectHolder("sammymod:sammy_nights_dim_portal")
 	public static final CustomPortalBlock portal = null;
 	public SammyNightsDimDimension(SammymodModElements instance) {
-		super(instance, 9);
+		super(instance, 13);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 
